@@ -4,8 +4,8 @@ This repository contains the R code for the MSc dissertation *Simultaneous
 Clustering and Outlier Detection* (MATH5872M), submitted for the degree of MSc
 in Data Science and Analytics at the University of Leeds.
 
-The project compares four clustering methods — **k-means**, **k-means−**,
-**DBSCAN** and the **Gaussian mixture model** — and the three different notions
+The project compares four clustering methods **k-means**, **k-means−**,
+**DBSCAN** and the **Gaussian mixture model**and the three different notions
 of an outlier they embody (distance-based, density-based and probability-based),
 across two labelled benchmark datasets (iris and wine) and a large, unlabelled
 dataset of house sales in King County, USA.
