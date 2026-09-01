@@ -47,23 +47,6 @@ install.packages(c(
 ))
 ```
 
-## Reproducing the results
-
-1. Clone the repository.
-2. Download `kc_house_data.csv` from Kaggle and place it in the working
-   directory.
-3. Run the scripts in `analysis/` to reproduce the main results (optimal number
-   of clusters, method comparison, and outlier comparison).
-4. Run the scripts in `enhancements/` for the closer analysis of the house data
-   (cluster profiling, exploratory data analysis, cluster maps, and outlier
-   characterisation).
-5. Run the scripts in `figures/` to regenerate the figures used in the
-   dissertation.
-
-A fixed random seed (`set.seed(42)`) is used throughout for reproducibility. All
-computations on the house data use the full dataset of 21,613 observations,
-without sampling.
-
 ## Key findings
 
 - On the house data, only the **silhouette index** remained reliable; extending
