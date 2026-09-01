@@ -35,33 +35,6 @@ The wine data is loaded directly from the UCI URL within the scripts. The house
 data (`kc_house_data.csv`) should be downloaded from Kaggle and placed in the
 working directory.
 
-## Repository structure
-
-```
-.
-├── README.md
-├── analysis/
-│   ├── iris_optk.R              # optimal k — iris
-│   ├── wine_optk.R              # optimal k — wine
-│   ├── house_optk.R            # optimal k — house (search extended to k=300)
-│   ├── iris_outlier.R           # outlier comparison — iris
-│   ├── wine_outlier.R           # outlier comparison — wine
-│   ├── house_outlier.R          # outlier comparison — house
-│   ├── iris_4method.R           # four-method comparison — iris
-│   ├── wine_4method.R           # four-method comparison — wine
-│   └── house_4method.R          # four-method comparison — house
-├── enhancements/
-│   ├── enhancement_1_cluster_profiling.R
-│   ├── enhancement_2_eda.R
-│   ├── enhancement_3_cluster_maps.R
-│   └── enhancement_4_outlier_characterisation.R
-└── figures/
-    ├── figures_1_optimal_k.R
-    ├── figures_2_outliers.R
-    ├── figures_3_fourmethod.R
-    ├── figures_4_enhancements.R
-    └── figures_5_pca_scatter.R
-```
 
 ## Requirements
 
